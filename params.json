@@ -1,0 +1,12 @@
+{
+  "learning_rate": 0.09,
+  "max_depth": 4,
+  "n_estimators": 259,
+  "num_leaves": 7,
+  "max_bin": 22,
+  "boosting_type": "gbdt",
+  "subsample": 1.0,
+  "colsample_bytree": 0.8,
+  "reg_alpha": 3.8,
+  "reg_lambda": 0.5
+}
