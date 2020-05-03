@@ -231,7 +231,7 @@ def multiplication_features(df: pd.DataFrame, mult_list: List[List[str]]):
 
 
 def division_features(
-    df: pd.DataFrame, div_list: List[Tuple[str, str]], clip_min: int = 1
+    df: pd.DataFrame, div_list: List[Tuple[str, str]], _clip_min: int = 1
 ):
     """Generate features with division of one column value to another
 
