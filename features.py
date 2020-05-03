@@ -1,6 +1,6 @@
 from utils import parse_time, calculate_initial_compass_bearing, q_diff, mean_to_median
 
-from typing import Union, Tuple, List, Mapping, Callable
+from typing import Union, Tuple, List, Callable
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from geopy.distance import geodesic
