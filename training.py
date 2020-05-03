@@ -11,7 +11,7 @@ def generate_params(n_generations: int = 20):
     """Generate random parameters for algorithm"""
     params = []
 
-    for n in range(n_generations):
+    for _ in range(n_generations):
         params.append(
             {
                 "learning_rate": np.random.randint(1, 30) / 100,
@@ -67,7 +67,6 @@ def find_best_algo(
         real_values = []
         predictions = []
         alg_list = []
-        test_list = []
         param["random_state"] = random_state
 
         for train_index, test_index in cross_val.split(train_data):

@@ -415,7 +415,7 @@ def generate_datasets(
         )
     print("categorical speed groupings ready")
 
-    for n, group_col in enumerate(
+    for _, group_col in enumerate(
         [["Pickup Lat", "Pickup Long"], ["Destination Lat", "Destination Long"]]
     ):
         place_speed = group_features(
